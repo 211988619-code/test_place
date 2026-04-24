@@ -1,0 +1,42 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow
+-- Install configuration: ""
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/lib/robot_data_flow/fake_imu_node.py
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/lib/robot_data_flow/fake_odom_node.py
+-- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/lib/robot_data_flow/tf_fusion_node.py
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/
+-- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow//data_flow_launch.py
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/ament_index/resource_index/package_run_dependencies/robot_data_flow
+-- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/ament_index/resource_index/parent_prefix_path/robot_data_flow
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/ament_prefix_path.sh
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/path.sh
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/path.dsv
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.bash
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.sh
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.zsh
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.dsv
+-- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/package.dsv
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/ament_index/resource_index/packages/robot_data_flow
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/cmake/robot_data_flowConfig.cmake
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/cmake/robot_data_flowConfig-version.cmake
+-- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/package.xml

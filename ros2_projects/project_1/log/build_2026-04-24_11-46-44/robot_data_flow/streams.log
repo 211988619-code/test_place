@@ -1,0 +1,45 @@
+[0.017s] Invoking command in '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/linux/test_place/ros2_projects/project_1/src/robot_data_flow -DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_projects/project_1/install/robot_data_flow
+[0.043s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.368s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.676s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.691s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.829s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.639s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.729s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.772s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.965s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.160s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.160s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.162s] -- Added test 'lint_cmake' to check CMake code style
+[2.163s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.165s] -- Added test 'xmllint' to check XML markup files
+[2.168s] -- Configuring done (2.1s)
+[2.182s] -- Generating done (0.0s)
+[2.187s] -- Build files have been written to: /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow
+[2.200s] Invoked command in '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/linux/test_place/ros2_projects/project_1/src/robot_data_flow -DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_projects/project_1/install/robot_data_flow
+[2.203s] Invoking command in '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow -- -j32 -l32
+[2.268s] Invoked command in '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow -- -j32 -l32
+[2.283s] Invoking command in '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow
+[2.294s] -- Install configuration: ""
+[2.295s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/lib/robot_data_flow/fake_imu_node.py
+[2.296s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/lib/robot_data_flow/fake_odom_node.py
+[2.297s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/ament_index/resource_index/package_run_dependencies/robot_data_flow
+[2.298s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/ament_index/resource_index/parent_prefix_path/robot_data_flow
+[2.299s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/ament_prefix_path.sh
+[2.299s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/ament_prefix_path.dsv
+[2.300s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/path.sh
+[2.300s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/environment/path.dsv
+[2.300s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.bash
+[2.301s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.sh
+[2.301s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.zsh
+[2.302s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/local_setup.dsv
+[2.302s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/package.dsv
+[2.303s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/ament_index/resource_index/packages/robot_data_flow
+[2.303s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/cmake/robot_data_flowConfig.cmake
+[2.303s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/cmake/robot_data_flowConfig-version.cmake
+[2.304s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/robot_data_flow/share/robot_data_flow/package.xml
+[2.307s] Invoked command in '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow

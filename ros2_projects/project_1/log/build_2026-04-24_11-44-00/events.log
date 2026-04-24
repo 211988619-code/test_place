@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001764] (robot_data_flow) JobQueued: {'identifier': 'robot_data_flow', 'dependencies': OrderedDict()}
+[0.001907] (robot_data_flow) JobStarted: {'identifier': 'robot_data_flow'}
+[0.018855] (robot_data_flow) JobProgress: {'identifier': 'robot_data_flow', 'progress': 'cmake'}
+[0.021878] (robot_data_flow) Command: {'cmd': ['/usr/bin/cmake', '/home/linux/test_place/ros2_projects/project_1/src/robot_data_flow', '-DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_projects/project_1/install/robot_data_flow'], 'cwd': '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', '__EGL_VENDOR_LIBRARY_DIRS': '/home/linux/miniconda3/share/glvnd/egl_vendor.d', 'USER': 'linux', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/linux', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/linux/test_place/ros2_projects', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/linux/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/linux/test_place/ros2_place/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'linux', 'NAME': 'pan', 'WSL_INTEROP': '/run/WSL/2848_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/linux/miniconda3/bin:/home/linux/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet:/mnt/e/编程/mingw64/bin:/mnt/d/Dev-Cpp/MinGW64/bin:/mnt/e/Claude Code/git/Git/cmd:/mnt/e/Claude Code/node:/mnt/d/FDU/CTF/Misc/tools/010 Editor:/mnt/d/texlive/2026/bin/windows:/mnt/d/Graphviz/bin:/mnt/d/python/python.exe:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/python/Scripts:/mnt/d/python:/mnt/e/Python/Scripts:/mnt/e/Python:/mnt/c/Users/51085/AppData/Local/Microsoft/WindowsApps:/mnt/e/脗卤脙聽脗鲁脙聦/Microsoft VS Code/bin:/mnt/e/Windows-Kits/MingGW/ucrt64/bin:/mnt/c/Users/51085/AppData/Roaming/npm:/mnt/d/msys64/mingw64/bin:/mnt/d/Java/jdk-17/bin:/mnt/d/FDU/脗驴脙聨脙聯脙聽脗禄脙庐脗露脗炉/脗潞脙職脗驴脙聧脙聜脙颅脙聙脗颅脙聥脙聣:/mnt/c/Users/51085/AppData/Local/Python/bin:/mnt/e/编程/Microsoft VS Code/bin:/mnt/c/Users/51085/.dotnet/tools:/snap/bin', 'WT_SESSION': 'ba51ad4a-4000-4bde-82e9-33b755a4f273', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GSETTINGS_SCHEMA_DIR': '/home/linux/miniconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/linux/test_place/ros2_place/install/turtle_auto:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/linux/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/linux/test_place/ros2_projects/project_1/build/robot_data_flow', 'CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/linux/miniconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/linux/test_place/ros2_place/install/turtle_auto:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.102928] (-) TimerEvent: {}
+[0.207973] (-) TimerEvent: {}
+[0.312988] (-) TimerEvent: {}
+[0.417985] (-) TimerEvent: {}
+[0.523018] (-) TimerEvent: {}
+[0.539157] (robot_data_flow) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.626972] (-) TimerEvent: {}
+[0.732115] (-) TimerEvent: {}
+[0.834097] (-) TimerEvent: {}
+[0.939245] (-) TimerEvent: {}
+[1.041646] (-) TimerEvent: {}
+[1.146415] (-) TimerEvent: {}
+[1.251480] (-) TimerEvent: {}
+[1.356490] (-) TimerEvent: {}
+[1.461533] (-) TimerEvent: {}
+[1.566547] (-) TimerEvent: {}
+[1.671529] (-) TimerEvent: {}
+[1.776493] (-) TimerEvent: {}
+[1.881464] (-) TimerEvent: {}
+[1.986447] (-) TimerEvent: {}
+[2.055091] (robot_data_flow) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.087999] (-) TimerEvent: {}
+[2.192810] (-) TimerEvent: {}
+[2.297786] (-) TimerEvent: {}
+[2.402789] (-) TimerEvent: {}
+[2.507992] (-) TimerEvent: {}
+[2.612948] (-) TimerEvent: {}
+[2.717947] (-) TimerEvent: {}
+[2.823009] (-) TimerEvent: {}
+[2.928184] (-) TimerEvent: {}
+[3.033374] (-) TimerEvent: {}
+[3.138327] (-) TimerEvent: {}
+[3.243181] (-) TimerEvent: {}
+[3.348187] (-) TimerEvent: {}
+[3.352444] (robot_data_flow) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.452719] (-) TimerEvent: {}
+[3.557694] (-) TimerEvent: {}
+[3.662691] (-) TimerEvent: {}
+[3.767691] (-) TimerEvent: {}
+[3.872679] (-) TimerEvent: {}
+[3.887613] (robot_data_flow) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.900559] (robot_data_flow) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.903109] (robot_data_flow) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.904370] (robot_data_flow) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.975924] (-) TimerEvent: {}
+[4.076913] (-) TimerEvent: {}
+[4.094313] (robot_data_flow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.180801] (-) TimerEvent: {}
+[4.285627] (-) TimerEvent: {}
+[4.390604] (-) TimerEvent: {}
+[4.495604] (-) TimerEvent: {}
+[4.600632] (-) TimerEvent: {}
+[4.606419] (robot_data_flow) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.619538] (robot_data_flow) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.620104] (robot_data_flow) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.620891] (robot_data_flow) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.635960] (robot_data_flow) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.703701] (-) TimerEvent: {}
+[4.808647] (-) TimerEvent: {}
+[4.863693] (robot_data_flow) StdoutLine: {'line': b'-- Found Python3: /home/linux/miniconda3/bin/python3 (found version "3.13.12") found components: Interpreter \n'}
+[4.910869] (-) TimerEvent: {}
+[5.011889] (-) TimerEvent: {}
+[5.113528] (-) TimerEvent: {}
+[5.130084] (robot_data_flow) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.217485] (-) TimerEvent: {}
+[5.322398] (-) TimerEvent: {}
+[5.427443] (-) TimerEvent: {}
+[5.456783] (robot_data_flow) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.479444] (robot_data_flow) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.507987] (robot_data_flow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.528487] (-) TimerEvent: {}
+[5.536497] (robot_data_flow) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.632897] (-) TimerEvent: {}
+[5.665577] (robot_data_flow) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.670124] (robot_data_flow) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.735880] (-) TimerEvent: {}
+[5.821498] (robot_data_flow) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.836673] (-) TimerEvent: {}
+[5.941640] (-) TimerEvent: {}
+[6.046773] (-) TimerEvent: {}
+[6.149094] (-) TimerEvent: {}
+[6.216886] (robot_data_flow) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.250722] (-) TimerEvent: {}
+[6.355674] (-) TimerEvent: {}
+[6.434926] (robot_data_flow) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.456762] (-) TimerEvent: {}
+[6.561739] (-) TimerEvent: {}
+[6.666730] (-) TimerEvent: {}
+[6.771744] (-) TimerEvent: {}
+[6.844560] (robot_data_flow) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[6.873111] (-) TimerEvent: {}
+[6.962032] (robot_data_flow) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[6.973773] (-) TimerEvent: {}
+[7.025006] (robot_data_flow) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[7.076144] (-) TimerEvent: {}
+[7.178504] (-) TimerEvent: {}
+[7.283472] (-) TimerEvent: {}
+[7.355233] (robot_data_flow) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[7.384912] (-) TimerEvent: {}
+[7.409078] (robot_data_flow) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[7.412843] (robot_data_flow) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[7.413026] (robot_data_flow) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[7.413110] (robot_data_flow) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[7.419688] (robot_data_flow) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[7.420070] (robot_data_flow) StderrLine: {'line': b'  execute_process(/home/linux/miniconda3/bin/python3\n'}
+[7.420505] (robot_data_flow) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[7.421022] (robot_data_flow) StderrLine: {'line': b'  /home/linux/test_place/ros2_projects/project_1/src/robot_data_flow/package.xml\n'}
+[7.421458] (robot_data_flow) StderrLine: {'line': b'  /home/linux/test_place/ros2_projects/project_1/build/robot_data_flow/ament_cmake_core/package.cmake)\n'}
+[7.421916] (robot_data_flow) StderrLine: {'line': b'  returned error code 1\n'}
+[7.422290] (robot_data_flow) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.422718] (robot_data_flow) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[7.423243] (robot_data_flow) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[7.423693] (robot_data_flow) StderrLine: {'line': b'  CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)\n'}
+[7.424148] (robot_data_flow) StderrLine: {'line': b'\n'}
+[7.424577] (robot_data_flow) StderrLine: {'line': b'\x1b[0m\n'}
+[7.425289] (robot_data_flow) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.435937] (robot_data_flow) CommandEnded: {'returncode': 1}
+[7.468092] (robot_data_flow) JobEnded: {'identifier': 'robot_data_flow', 'rc': 1}
+[7.479664] (-) EventReactorShutdown: {}
