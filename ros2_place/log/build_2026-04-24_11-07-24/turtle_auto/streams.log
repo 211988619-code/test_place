@@ -1,0 +1,48 @@
+[0.032s] Invoking command in '/home/linux/test_place/ros2_place/build/turtle_auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_place/build/turtle_auto -- -j32 -l32
+[0.230s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.639s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.002s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.024s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.247s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.254s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.742s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.182s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.273s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.462s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.463s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linux/test_place/ros2_place/src/turtle_auto/include>
+[2.463s] -- Configured cppcheck exclude dirs and/or files: 
+[2.464s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.464s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.467s] -- Added test 'lint_cmake' to check CMake code style
+[2.469s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.471s] -- Added test 'uncrustify' to check C / C++ code style
+[2.471s] -- Configured uncrustify additional arguments: 
+[2.473s] -- Added test 'xmllint' to check XML markup files
+[2.477s] -- Configuring done (2.3s)
+[2.513s] -- Generating done (0.0s)
+[2.523s] -- Build files have been written to: /home/linux/test_place/ros2_place/build/turtle_auto
+[2.607s] [100%] Built target auto_circle
+[2.623s] Invoked command in '/home/linux/test_place/ros2_place/build/turtle_auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_place/build/turtle_auto -- -j32 -l32
+[2.639s] Invoking command in '/home/linux/test_place/ros2_place/build/turtle_auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_place/build/turtle_auto
+[2.650s] -- Install configuration: ""
+[2.653s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/lib/turtle_auto/auto_circle
+[2.654s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/launch
+[2.654s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/launch/auto_circle.launch.py
+[2.655s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/package_run_dependencies/turtle_auto
+[2.655s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/parent_prefix_path/turtle_auto
+[2.656s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/ament_prefix_path.sh
+[2.657s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/ament_prefix_path.dsv
+[2.657s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/path.sh
+[2.657s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/path.dsv
+[2.658s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.bash
+[2.658s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.sh
+[2.658s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.zsh
+[2.659s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.dsv
+[2.659s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/package.dsv
+[2.660s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/packages/turtle_auto
+[2.661s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/cmake/turtle_autoConfig.cmake
+[2.661s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/cmake/turtle_autoConfig-version.cmake
+[2.661s] -- Up-to-date: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/package.xml
+[2.663s] Invoked command in '/home/linux/test_place/ros2_place/build/turtle_auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_place/build/turtle_auto

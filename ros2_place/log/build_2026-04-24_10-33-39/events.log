@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.001836] (turtle_auto) JobQueued: {'identifier': 'turtle_auto', 'dependencies': OrderedDict()}
+[0.001950] (turtle_auto) JobStarted: {'identifier': 'turtle_auto'}
+[0.012844] (turtle_auto) JobProgress: {'identifier': 'turtle_auto', 'progress': 'cmake'}
+[0.015123] (turtle_auto) Command: {'cmd': ['/usr/bin/cmake', '/home/linux/test_place/ros2_place/src/turtle_auto', '-DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_place/install/turtle_auto'], 'cwd': '/home/linux/test_place/ros2_place/build/turtle_auto', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'linux', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/linux', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/linux/test_place/ros2_place/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/linux/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'linux', 'NAME': 'pan', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/linux/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet:/mnt/e/编程/mingw64/bin:/mnt/d/Dev-Cpp/MinGW64/bin:/mnt/e/Claude Code/git/Git/cmd:/mnt/e/Claude Code/node:/mnt/d/FDU/CTF/Misc/tools/010 Editor:/mnt/d/texlive/2026/bin/windows:/mnt/d/Graphviz/bin:/mnt/d/python/python.exe:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/python/Scripts:/mnt/d/python:/mnt/e/Python/Scripts:/mnt/e/Python:/mnt/c/Users/51085/AppData/Local/Microsoft/WindowsApps:/mnt/e/脗卤脙聽脗鲁脙聦/Microsoft VS Code/bin:/mnt/e/Windows-Kits/MingGW/ucrt64/bin:/mnt/c/Users/51085/AppData/Roaming/npm:/mnt/d/msys64/mingw64/bin:/mnt/d/Java/jdk-17/bin:/mnt/d/FDU/脗驴脙聨脙聯脙聽脗禄脙庐脗露脗炉/脗潞脙職脗驴脙聧脙聜脙颅脙聙脗颅脙聥脙聣:/mnt/c/Users/51085/AppData/Local/Python/bin:/mnt/e/编程/Microsoft VS Code/bin:/mnt/c/Users/51085/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/linux/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/linux/test_place/ros2_place/build/turtle_auto', 'CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.100228] (-) TimerEvent: {}
+[0.204275] (-) TimerEvent: {}
+[0.308268] (-) TimerEvent: {}
+[0.410995] (turtle_auto) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.411372] (-) TimerEvent: {}
+[0.515231] (-) TimerEvent: {}
+[0.619083] (-) TimerEvent: {}
+[0.723004] (-) TimerEvent: {}
+[0.826929] (-) TimerEvent: {}
+[0.930916] (-) TimerEvent: {}
+[1.034927] (-) TimerEvent: {}
+[1.138987] (-) TimerEvent: {}
+[1.243042] (-) TimerEvent: {}
+[1.347038] (-) TimerEvent: {}
+[1.451040] (-) TimerEvent: {}
+[1.555299] (-) TimerEvent: {}
+[1.659190] (-) TimerEvent: {}
+[1.763150] (-) TimerEvent: {}
+[1.813172] (turtle_auto) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.865027] (-) TimerEvent: {}
+[1.968996] (-) TimerEvent: {}
+[2.072982] (-) TimerEvent: {}
+[2.176952] (-) TimerEvent: {}
+[2.280926] (-) TimerEvent: {}
+[2.384893] (-) TimerEvent: {}
+[2.488875] (-) TimerEvent: {}
+[2.592857] (-) TimerEvent: {}
+[2.696653] (-) TimerEvent: {}
+[2.800716] (-) TimerEvent: {}
+[2.904822] (-) TimerEvent: {}
+[3.008793] (-) TimerEvent: {}
+[3.013354] (turtle_auto) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.112291] (-) TimerEvent: {}
+[3.216251] (-) TimerEvent: {}
+[3.319835] (-) TimerEvent: {}
+[3.423852] (-) TimerEvent: {}
+[3.512154] (turtle_auto) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.524416] (-) TimerEvent: {}
+[3.524958] (turtle_auto) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.527305] (turtle_auto) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.528570] (turtle_auto) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.627915] (-) TimerEvent: {}
+[3.717254] (turtle_auto) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.728442] (-) TimerEvent: {}
+[3.832359] (-) TimerEvent: {}
+[3.936309] (-) TimerEvent: {}
+[4.040293] (-) TimerEvent: {}
+[4.144305] (-) TimerEvent: {}
+[4.197475] (turtle_auto) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.210320] (turtle_auto) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.210926] (turtle_auto) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.211691] (turtle_auto) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.224344] (turtle_auto) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.245131] (-) TimerEvent: {}
+[4.349044] (-) TimerEvent: {}
+[4.425044] (turtle_auto) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.450062] (-) TimerEvent: {}
+[4.554076] (-) TimerEvent: {}
+[4.583117] (turtle_auto) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.656710] (-) TimerEvent: {}
+[4.760517] (-) TimerEvent: {}
+[4.865281] (-) TimerEvent: {}
+[4.893316] (turtle_auto) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.912858] (turtle_auto) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.937291] (turtle_auto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.963408] (turtle_auto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.965515] (-) TimerEvent: {}
+[5.070814] (-) TimerEvent: {}
+[5.077121] (turtle_auto) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.081266] (turtle_auto) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.172033] (-) TimerEvent: {}
+[5.204628] (turtle_auto) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.275414] (-) TimerEvent: {}
+[5.380839] (-) TimerEvent: {}
+[5.486287] (-) TimerEvent: {}
+[5.574487] (turtle_auto) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.587028] (-) TimerEvent: {}
+[5.692482] (-) TimerEvent: {}
+[5.785720] (turtle_auto) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.792943] (-) TimerEvent: {}
+[5.898336] (-) TimerEvent: {}
+[6.003766] (-) TimerEvent: {}
+[6.109140] (-) TimerEvent: {}
+[6.163031] (turtle_auto) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[6.211601] (-) TimerEvent: {}
+[6.220577] (turtle_auto) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.316230] (-) TimerEvent: {}
+[6.421631] (-) TimerEvent: {}
+[6.424088] (turtle_auto) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.424781] (turtle_auto) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linux/test_place/ros2_place/src/turtle_auto/include>\n'}
+[6.424950] (turtle_auto) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.427205] (turtle_auto) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.430024] (turtle_auto) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.430227] (turtle_auto) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.431572] (turtle_auto) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.436915] (turtle_auto) StdoutLine: {'line': b'-- Configuring done (6.4s)\n'}
+[6.454762] (turtle_auto) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.460168] (turtle_auto) StdoutLine: {'line': b'-- Build files have been written to: /home/linux/test_place/ros2_place/build/turtle_auto\n'}
+[6.473568] (turtle_auto) CommandEnded: {'returncode': 0}
+[6.476065] (turtle_auto) JobProgress: {'identifier': 'turtle_auto', 'progress': 'build'}
+[6.476099] (turtle_auto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linux/test_place/ros2_place/build/turtle_auto', '--', '-j32', '-l32'], 'cwd': '/home/linux/test_place/ros2_place/build/turtle_auto', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'linux', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/linux', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/linux/test_place/ros2_place/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/linux/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'linux', 'NAME': 'pan', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/linux/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet:/mnt/e/编程/mingw64/bin:/mnt/d/Dev-Cpp/MinGW64/bin:/mnt/e/Claude Code/git/Git/cmd:/mnt/e/Claude Code/node:/mnt/d/FDU/CTF/Misc/tools/010 Editor:/mnt/d/texlive/2026/bin/windows:/mnt/d/Graphviz/bin:/mnt/d/python/python.exe:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/python/Scripts:/mnt/d/python:/mnt/e/Python/Scripts:/mnt/e/Python:/mnt/c/Users/51085/AppData/Local/Microsoft/WindowsApps:/mnt/e/脗卤脙聽脗鲁脙聦/Microsoft VS Code/bin:/mnt/e/Windows-Kits/MingGW/ucrt64/bin:/mnt/c/Users/51085/AppData/Roaming/npm:/mnt/d/msys64/mingw64/bin:/mnt/d/Java/jdk-17/bin:/mnt/d/FDU/脗驴脙聨脙聯脙聽脗禄脙庐脗露脗炉/脗潞脙職脗驴脙聧脙聜脙颅脙聙脗颅脙聥脙聣:/mnt/c/Users/51085/AppData/Local/Python/bin:/mnt/e/编程/Microsoft VS Code/bin:/mnt/c/Users/51085/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/linux/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/linux/test_place/ros2_place/build/turtle_auto', 'CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[6.524194] (-) TimerEvent: {}
+[6.547696] (turtle_auto) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/auto_circle.dir/src/auto_circle.cpp.o\x1b[0m\n'}
+[6.628102] (-) TimerEvent: {}
+[6.733495] (-) TimerEvent: {}
+[6.838697] (-) TimerEvent: {}
+[6.944094] (-) TimerEvent: {}
+[7.049496] (-) TimerEvent: {}
+[7.154898] (-) TimerEvent: {}
+[7.256574] (-) TimerEvent: {}
+[7.362033] (-) TimerEvent: {}
+[7.467464] (-) TimerEvent: {}
+[7.572872] (-) TimerEvent: {}
+[7.678302] (-) TimerEvent: {}
+[7.783712] (-) TimerEvent: {}
+[7.888871] (-) TimerEvent: {}
+[7.994329] (-) TimerEvent: {}
+[8.099774] (-) TimerEvent: {}
+[8.205209] (-) TimerEvent: {}
+[8.310651] (-) TimerEvent: {}
+[8.416117] (-) TimerEvent: {}
+[8.521573] (-) TimerEvent: {}
+[8.627003] (-) TimerEvent: {}
+[8.732435] (-) TimerEvent: {}
+[8.837889] (-) TimerEvent: {}
+[8.943316] (-) TimerEvent: {}
+[9.048756] (-) TimerEvent: {}
+[9.154204] (-) TimerEvent: {}
+[9.259627] (-) TimerEvent: {}
+[9.365049] (-) TimerEvent: {}
+[9.470492] (-) TimerEvent: {}
+[9.575958] (-) TimerEvent: {}
+[9.681372] (-) TimerEvent: {}
+[9.786858] (-) TimerEvent: {}
+[9.892305] (-) TimerEvent: {}
+[9.997513] (-) TimerEvent: {}
+[10.102997] (-) TimerEvent: {}
+[10.208517] (-) TimerEvent: {}
+[10.314123] (-) TimerEvent: {}
+[10.419790] (-) TimerEvent: {}
+[10.525227] (-) TimerEvent: {}
+[10.630694] (-) TimerEvent: {}
+[10.736184] (-) TimerEvent: {}
+[10.841815] (-) TimerEvent: {}
+[10.947373] (-) TimerEvent: {}
+[11.052482] (-) TimerEvent: {}
+[11.157928] (-) TimerEvent: {}
+[11.259886] (-) TimerEvent: {}
+[11.365307] (-) TimerEvent: {}
+[11.470762] (-) TimerEvent: {}
+[11.576254] (-) TimerEvent: {}
+[11.681683] (-) TimerEvent: {}
+[11.787179] (-) TimerEvent: {}
+[11.892614] (-) TimerEvent: {}
+[11.998109] (-) TimerEvent: {}
+[12.103405] (-) TimerEvent: {}
+[12.208823] (-) TimerEvent: {}
+[12.314226] (-) TimerEvent: {}
+[12.419633] (-) TimerEvent: {}
+[12.525049] (-) TimerEvent: {}
+[12.630474] (-) TimerEvent: {}
+[12.735910] (-) TimerEvent: {}
+[12.841310] (-) TimerEvent: {}
+[12.946831] (-) TimerEvent: {}
+[13.052259] (-) TimerEvent: {}
+[13.157393] (-) TimerEvent: {}
+[13.262109] (-) TimerEvent: {}
+[13.366730] (-) TimerEvent: {}
+[13.471339] (-) TimerEvent: {}
+[13.575932] (-) TimerEvent: {}
+[13.680553] (-) TimerEvent: {}
+[13.785164] (-) TimerEvent: {}
+[13.889734] (-) TimerEvent: {}
+[13.994400] (-) TimerEvent: {}
+[14.093357] (turtle_auto) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable auto_circle\x1b[0m\n'}
+[14.094583] (-) TimerEvent: {}
+[14.198795] (-) TimerEvent: {}
+[14.303393] (-) TimerEvent: {}
+[14.407979] (-) TimerEvent: {}
+[14.512585] (-) TimerEvent: {}
+[14.617202] (-) TimerEvent: {}
+[14.651346] (turtle_auto) StdoutLine: {'line': b'[100%] Built target auto_circle\n'}
+[14.667747] (turtle_auto) CommandEnded: {'returncode': 0}
+[14.669312] (turtle_auto) JobProgress: {'identifier': 'turtle_auto', 'progress': 'install'}
+[14.683323] (turtle_auto) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linux/test_place/ros2_place/build/turtle_auto'], 'cwd': '/home/linux/test_place/ros2_place/build/turtle_auto', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'linux', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/linux', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/linux/test_place/ros2_place/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/linux/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'linux', 'NAME': 'pan', 'WSL_INTEROP': '/run/WSL/356_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/opt/ros/jazzy/bin:/home/linux/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/dotnet:/mnt/e/编程/mingw64/bin:/mnt/d/Dev-Cpp/MinGW64/bin:/mnt/e/Claude Code/git/Git/cmd:/mnt/e/Claude Code/node:/mnt/d/FDU/CTF/Misc/tools/010 Editor:/mnt/d/texlive/2026/bin/windows:/mnt/d/Graphviz/bin:/mnt/d/python/python.exe:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/python/Scripts:/mnt/d/python:/mnt/e/Python/Scripts:/mnt/e/Python:/mnt/c/Users/51085/AppData/Local/Microsoft/WindowsApps:/mnt/e/脗卤脙聽脗鲁脙聦/Microsoft VS Code/bin:/mnt/e/Windows-Kits/MingGW/ucrt64/bin:/mnt/c/Users/51085/AppData/Roaming/npm:/mnt/d/msys64/mingw64/bin:/mnt/d/Java/jdk-17/bin:/mnt/d/FDU/脗驴脙聨脙聯脙聽脗禄脙庐脗露脗炉/脗潞脙職脗驴脙聧脙聜脙颅脙聙脗颅脙聥脙聣:/mnt/c/Users/51085/AppData/Local/Python/bin:/mnt/e/编程/Microsoft VS Code/bin:/mnt/c/Users/51085/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/linux/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', '_CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/linux/test_place/ros2_place/build/turtle_auto', 'CONDA_EXE': '/home/linux/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[14.693936] (turtle_auto) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.694987] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/lib/turtle_auto/auto_circle\n'}
+[14.696777] (turtle_auto) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_place/install/turtle_auto/lib/turtle_auto/auto_circle" to ""\n'}
+[14.697684] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/package_run_dependencies/turtle_auto\n'}
+[14.698399] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/parent_prefix_path/turtle_auto\n'}
+[14.699223] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/ament_prefix_path.sh\n'}
+[14.699705] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/ament_prefix_path.dsv\n'}
+[14.699889] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/path.sh\n'}
+[14.700194] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/path.dsv\n'}
+[14.700558] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.bash\n'}
+[14.701243] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.sh\n'}
+[14.701416] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.zsh\n'}
+[14.701494] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.dsv\n'}
+[14.701847] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/package.dsv\n'}
+[14.702568] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/packages/turtle_auto\n'}
+[14.703060] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/cmake/turtle_autoConfig.cmake\n'}
+[14.703560] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/cmake/turtle_autoConfig-version.cmake\n'}
+[14.703839] (turtle_auto) StdoutLine: {'line': b'-- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/package.xml\n'}
+[14.707857] (turtle_auto) CommandEnded: {'returncode': 0}
+[14.718211] (-) TimerEvent: {}
+[14.735027] (turtle_auto) JobEnded: {'identifier': 'turtle_auto', 'rc': 0}
+[14.737322] (-) EventReactorShutdown: {}

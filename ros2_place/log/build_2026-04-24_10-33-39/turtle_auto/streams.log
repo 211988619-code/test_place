@@ -1,0 +1,63 @@
+[0.016s] Invoking command in '/home/linux/test_place/ros2_place/build/turtle_auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/linux/test_place/ros2_place/src/turtle_auto -DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_place/install/turtle_auto
+[0.409s] -- The C compiler identification is GNU 13.3.0
+[1.812s] -- The CXX compiler identification is GNU 13.3.0
+[3.012s] -- Detecting C compiler ABI info
+[3.510s] -- Detecting C compiler ABI info - done
+[3.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.525s] -- Detecting C compile features
+[3.527s] -- Detecting C compile features - done
+[3.715s] -- Detecting CXX compiler ABI info
+[4.196s] -- Detecting CXX compiler ABI info - done
+[4.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.209s] -- Detecting CXX compile features
+[4.210s] -- Detecting CXX compile features - done
+[4.222s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.423s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.581s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.892s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.911s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.075s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.079s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.205s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.573s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.161s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[6.219s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.422s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.423s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linux/test_place/ros2_place/src/turtle_auto/include>
+[6.423s] -- Configured cppcheck exclude dirs and/or files: 
+[6.425s] -- Added test 'lint_cmake' to check CMake code style
+[6.428s] -- Added test 'uncrustify' to check C / C++ code style
+[6.428s] -- Configured uncrustify additional arguments: 
+[6.430s] -- Added test 'xmllint' to check XML markup files
+[6.435s] -- Configuring done (6.4s)
+[6.453s] -- Generating done (0.0s)
+[6.458s] -- Build files have been written to: /home/linux/test_place/ros2_place/build/turtle_auto
+[6.472s] Invoked command in '/home/linux/test_place/ros2_place/build/turtle_auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/linux/test_place/ros2_place/src/turtle_auto -DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_place/install/turtle_auto
+[6.476s] Invoking command in '/home/linux/test_place/ros2_place/build/turtle_auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_place/build/turtle_auto -- -j32 -l32
+[6.546s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_circle.dir/src/auto_circle.cpp.o[0m
+[14.092s] [100%] [32m[1mLinking CXX executable auto_circle[0m
+[14.650s] [100%] Built target auto_circle
+[14.666s] Invoked command in '/home/linux/test_place/ros2_place/build/turtle_auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_place/build/turtle_auto -- -j32 -l32
+[14.682s] Invoking command in '/home/linux/test_place/ros2_place/build/turtle_auto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_place/build/turtle_auto
+[14.692s] -- Install configuration: ""
+[14.693s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/lib/turtle_auto/auto_circle
+[14.695s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_place/install/turtle_auto/lib/turtle_auto/auto_circle" to ""
+[14.696s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/package_run_dependencies/turtle_auto
+[14.697s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/parent_prefix_path/turtle_auto
+[14.697s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/ament_prefix_path.sh
+[14.698s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/ament_prefix_path.dsv
+[14.698s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/path.sh
+[14.698s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/environment/path.dsv
+[14.699s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.bash
+[14.699s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.sh
+[14.699s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.zsh
+[14.700s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/local_setup.dsv
+[14.700s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/package.dsv
+[14.701s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/ament_index/resource_index/packages/turtle_auto
+[14.701s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/cmake/turtle_autoConfig.cmake
+[14.702s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/cmake/turtle_autoConfig-version.cmake
+[14.702s] -- Installing: /home/linux/test_place/ros2_place/install/turtle_auto/share/turtle_auto/package.xml
+[14.706s] Invoked command in '/home/linux/test_place/ros2_place/build/turtle_auto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_place/build/turtle_auto
