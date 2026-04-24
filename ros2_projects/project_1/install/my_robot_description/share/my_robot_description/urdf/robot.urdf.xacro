@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<robot name="indoor_patrol_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find my_robot_description)/urdf/chassis.xacro"/>
+  <xacro:include filename="$(find my_robot_description)/urdf/wheels.xacro"/>
+  <xacro:include filename="$(find my_robot_description)/urdf/sensors.xacro"/>
+
+  <xacro:property name="body_length" value="0.50"/>
+  <xacro:property name="body_width" value="0.34"/>
+  <xacro:property name="body_height" value="0.12"/>
+  <xacro:property name="body_mass" value="8.0"/>
+
+  <xacro:property name="wheel_radius" value="0.08"/>
+  <xacro:property name="wheel_width" value="0.04"/>
+  <xacro:property name="wheel_mass" value="0.6"/>
+
+  <xacro:property name="wheel_x" value="0.0"/>
+  <xacro:property name="wheel_y_offset" value="${body_width / 2.0 + wheel_width / 2.0}"/>
+  <xacro:property name="wheel_z" value="${-body_height / 2.0}"/>
+
+  <xacro:property name="caster_x" value="${-body_length / 2.5}"/>
+  <xacro:property name="caster_z" value="${-(body_height / 2.0 + 0.04)}"/>
+
+  <xacro:property name="lidar_height" value="${body_height / 2.0 + 0.08}"/>
+  <xacro:property name="camera_height" value="${body_height / 2.0 + 0.14}"/>
+
+  <xacro:chassis
+    length="${body_length}"
+    width="${body_width}"
+    height="${body_height}"
+    mass="${body_mass}"/>
+
+  <xacro:drive_wheel
+    prefix="left"
+    x="${wheel_x}"
+    y="${wheel_y_offset}"
+    z="${wheel_z}"
+    radius="${wheel_radius}"
+    width="${wheel_width}"
+    mass="${wheel_mass}"/>
+
+  <xacro:drive_wheel
+    prefix="right"
+    x="${wheel_x}"
+    y="${-wheel_y_offset}"
+    z="${wheel_z}"
+    radius="${wheel_radius}"
+    width="${wheel_width}"
+    mass="${wheel_mass}"/>
+
+  <xacro:caster_wheel
+    x="${caster_x}"
+    y="0.0"
+    z="${caster_z}"
+    radius="0.04"
+    mass="0.2"/>
+
+  <xacro:sensor_mounts
+    body_length="${body_length}"
+    lidar_height="${lidar_height}"
+    camera_height="${camera_height}"/>
+</robot>
