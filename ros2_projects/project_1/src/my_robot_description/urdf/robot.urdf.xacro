@@ -3,6 +3,7 @@
   <xacro:include filename="$(find my_robot_description)/urdf/chassis.xacro"/>
   <xacro:include filename="$(find my_robot_description)/urdf/wheels.xacro"/>
   <xacro:include filename="$(find my_robot_description)/urdf/sensors.xacro"/>
+  <xacro:include filename="$(find my_robot_description)/urdf/gazebo.xacro"/>
 
   <xacro:property name="body_length" value="0.50"/>
   <xacro:property name="body_width" value="0.34"/>
@@ -13,15 +14,28 @@
   <xacro:property name="wheel_width" value="0.04"/>
   <xacro:property name="wheel_mass" value="0.6"/>
 
-  <xacro:property name="wheel_x" value="0.0"/>
+  <xacro:property name="wheel_x" value="0.04"/>
   <xacro:property name="wheel_y_offset" value="${body_width / 2.0 + wheel_width / 2.0}"/>
   <xacro:property name="wheel_z" value="${-body_height / 2.0}"/>
 
-  <xacro:property name="caster_x" value="${-body_length / 2.5}"/>
+  <xacro:property name="rear_caster_x" value="${-body_length / 2.3}"/>
+  <xacro:property name="front_caster_x" value="${body_length / 2.6}"/>
   <xacro:property name="caster_z" value="${-(body_height / 2.0 + 0.04)}"/>
 
   <xacro:property name="lidar_height" value="${body_height / 2.0 + 0.08}"/>
   <xacro:property name="camera_height" value="${body_height / 2.0 + 0.14}"/>
+  <xacro:property name="lidar_min_angle" value="-3.14159"/>
+  <xacro:property name="lidar_max_angle" value="3.14159"/>
+  <xacro:property name="lidar_samples" value="720"/>
+  <xacro:property name="lidar_range_min" value="0.05"/>
+  <xacro:property name="lidar_range_max" value="8.0"/>
+  <xacro:property name="lidar_update_rate" value="10.0"/>
+  <xacro:property name="camera_width" value="640"/>
+  <xacro:property name="camera_height_px" value="480"/>
+  <xacro:property name="camera_hfov" value="1.047"/>
+  <xacro:property name="camera_near_clip" value="0.05"/>
+  <xacro:property name="camera_far_clip" value="20.0"/>
+  <xacro:property name="camera_update_rate" value="15.0"/>
 
   <xacro:chassis
     length="${body_length}"
@@ -48,7 +62,16 @@
     mass="${wheel_mass}"/>
 
   <xacro:caster_wheel
-    x="${caster_x}"
+    prefix="rear"
+    x="${rear_caster_x}"
+    y="0.0"
+    z="${caster_z}"
+    radius="0.04"
+    mass="0.2"/>
+
+  <xacro:caster_wheel
+    prefix="front"
+    x="${front_caster_x}"
     y="0.0"
     z="${caster_z}"
     radius="0.04"
@@ -58,4 +81,31 @@
     body_length="${body_length}"
     lidar_height="${lidar_height}"
     camera_height="${camera_height}"/>
+
+  <xacro:gazebo_diff_drive
+    wheel_separation="${2.0 * wheel_y_offset}"
+    wheel_radius="${wheel_radius}"/>
+
+  <xacro:gazebo_joint_state_publisher/>
+
+  <xacro:gazebo_lidar
+    topic_name="/scan"
+    update_rate="${lidar_update_rate}"
+    min_angle="${lidar_min_angle}"
+    max_angle="${lidar_max_angle}"
+    samples="${lidar_samples}"
+    range_min="${lidar_range_min}"
+    range_max="${lidar_range_max}"
+    visualize="true"/>
+
+  <xacro:gazebo_camera
+    image_topic="/camera/image_raw"
+    camera_info_topic="/camera/camera_info"
+    update_rate="${camera_update_rate}"
+    width="${camera_width}"
+    height="${camera_height_px}"
+    hfov="${camera_hfov}"
+    near_clip="${camera_near_clip}"
+    far_clip="${camera_far_clip}"
+    visualize="true"/>
 </robot>

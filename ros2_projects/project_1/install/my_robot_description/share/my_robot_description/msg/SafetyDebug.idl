@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_description/msg/SafetyDebug.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module my_robot_description {
+  module msg {
+    struct SafetyDebug {
+      builtin_interfaces::msg::Time stamp;
+
+      float cmd_linear;
+
+      float cmd_angular;
+
+      float target_linear_after_safety;
+
+      float target_angular_after_avoid;
+
+      float current_linear;
+
+      float current_angular;
+
+      float front_range;
+
+      float rear_range;
+
+      float front_left_range;
+
+      float front_right_range;
+
+      float front_clearance;
+
+      float rear_clearance;
+
+      float front_left_clearance;
+
+      float front_right_clearance;
+
+      boolean obstacle_blocked;
+    };
+  };
+};

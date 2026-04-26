@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_description/msg/WallFollowDebug.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module my_robot_description {
+  module msg {
+    struct WallFollowDebug {
+      builtin_interfaces::msg::Time stamp;
+
+      string state;
+
+      float front_range;
+
+      float side_range;
+
+      float diagonal_range;
+
+      float distance_error;
+
+      float wall_angle_error;
+
+      float front_speed_scale;
+
+      float linear_command;
+
+      float angular_command;
+
+      boolean front_blocked;
+
+      boolean wall_lost;
+
+      boolean in_acquire_mode;
+    };
+  };
+};

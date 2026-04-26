@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="gazebo_diff_drive" params="wheel_separation wheel_radius">
+    <gazebo>
+      <plugin
+        filename="gz-sim-diff-drive-system"
+        name="gz::sim::systems::DiffDrive">
+        <left_joint>left_wheel_joint</left_joint>
+        <right_joint>right_wheel_joint</right_joint>
+        <wheel_separation>${wheel_separation}</wheel_separation>
+        <wheel_radius>${wheel_radius}</wheel_radius>
+        <topic>/cmd_vel</topic>
+        <odom_topic>/odom</odom_topic>
+        <tf_topic>/tf</tf_topic>
+        <frame_id>odom</frame_id>
+        <child_frame_id>base_footprint</child_frame_id>
+        <odom_publish_frequency>30</odom_publish_frequency>
+        <max_linear_velocity>0.8</max_linear_velocity>
+        <max_angular_velocity>1.5</max_angular_velocity>
+        <max_linear_acceleration>1.0</max_linear_acceleration>
+        <max_angular_acceleration>2.5</max_angular_acceleration>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+
+  <xacro:macro name="gazebo_joint_state_publisher">
+    <gazebo>
+      <plugin
+        filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        <topic>/joint_states</topic>
+        <joint_name>left_wheel_joint</joint_name>
+        <joint_name>right_wheel_joint</joint_name>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+
+  <xacro:macro name="gazebo_lidar"
+    params="topic_name update_rate min_angle max_angle samples range_min range_max visualize">
+    <gazebo reference="lidar_link">
+      <sensor name="front_lidar" type="gpu_lidar">
+        <pose>0 0 0 0 0 0</pose>
+        <topic>${topic_name}</topic>
+        <gz_frame_id>lidar_link</gz_frame_id>
+        <update_rate>${update_rate}</update_rate>
+        <always_on>true</always_on>
+        <visualize>${visualize}</visualize>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>${samples}</samples>
+              <resolution>1</resolution>
+              <min_angle>${min_angle}</min_angle>
+              <max_angle>${max_angle}</max_angle>
+            </horizontal>
+            <vertical>
+              <samples>1</samples>
+              <resolution>1</resolution>
+              <min_angle>0</min_angle>
+              <max_angle>0</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>${range_min}</min>
+            <max>${range_max}</max>
+            <resolution>0.01</resolution>
+          </range>
+        </ray>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+
+  <xacro:macro name="gazebo_camera"
+    params="image_topic camera_info_topic update_rate width height hfov near_clip far_clip visualize">
+    <gazebo reference="camera_link">
+      <sensor name="front_camera" type="camera">
+        <pose>0 0 0 0 0 0</pose>
+        <topic>${image_topic}</topic>
+        <gz_frame_id>camera_optical_link</gz_frame_id>
+        <update_rate>${update_rate}</update_rate>
+        <always_on>true</always_on>
+        <visualize>${visualize}</visualize>
+        <camera name="front_rgb_camera">
+          <camera_info_topic>${camera_info_topic}</camera_info_topic>
+          <horizontal_fov>${hfov}</horizontal_fov>
+          <image>
+            <width>${width}</width>
+            <height>${height}</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>${near_clip}</near>
+            <far>${far_clip}</far>
+          </clip>
+        </camera>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+</robot>

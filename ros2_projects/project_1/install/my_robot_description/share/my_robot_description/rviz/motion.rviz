@@ -61,6 +61,22 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /scan
       Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Image
+      Enabled: true
+      Median window: 5
+      Min Value: 0
+      Max Value: 1
+      Name: CameraImage
+      Normalize Range: true
+      Queue Size: 2
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+        Value: /camera/image_raw
+      Value: true
     - Class: rviz_default_plugins/MarkerArray
       Enabled: true
       Name: SceneMarkers
@@ -74,6 +90,22 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /scene_markers
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: WallFollowMarkers
+      Namespaces:
+        wall_follow_diagonal: true
+        wall_follow_front: true
+        wall_follow_side: true
+        wall_follow_state: true
+        wall_follow_target: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /wall_follow_markers
       Value: true
   Enabled: true
   Global Options:

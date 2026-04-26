@@ -4,6 +4,7 @@ import math
 
 import rclpy
 from geometry_msgs.msg import TransformStamped, Twist
+from my_robot_description.msg import SafetyDebug
 from nav_msgs.msg import Odometry
 from rclpy.duration import Duration
 from rclpy.node import Node
@@ -92,6 +93,9 @@ class CmdVelDriveNode(Node):
         )
         self.joint_publisher = self.create_publisher(JointState, "/joint_states", 10)
         self.odom_publisher = self.create_publisher(Odometry, "/odom", 10)
+        self.debug_publisher = self.create_publisher(
+            SafetyDebug, "/safety_debug", 10
+        )
         self.tf_broadcaster = TransformBroadcaster(self)
         self.timer = self.create_timer(1.0 / self.publish_rate, self.update_and_publish)
 
@@ -222,6 +226,7 @@ class CmdVelDriveNode(Node):
 
         self.publish_joint_states(now, left_wheel_velocity, right_wheel_velocity)
         self.publish_odom(now, self.current_linear, self.current_angular)
+        self.publish_safety_debug(now, command_linear, command_angular, linear_target, angular_target)
         self.publish_transform(now)
 
     def apply_lidar_safety(self, linear_target):
@@ -337,6 +342,41 @@ class CmdVelDriveNode(Node):
         msg.twist.twist.angular.z = angular_speed
         self.odom_publisher.publish(msg)
 
+    def publish_safety_debug(
+        self, now, command_linear, command_angular, linear_target, angular_target
+    ):
+        front_clearance = self.compute_clearance(
+            self.front_min_range, self.front_body_offset
+        )
+        rear_clearance = self.compute_clearance(
+            self.rear_min_range, self.rear_body_offset
+        )
+        front_left_clearance = self.compute_clearance(
+            self.front_left_min_range, self.front_body_offset
+        )
+        front_right_clearance = self.compute_clearance(
+            self.front_right_min_range, self.front_body_offset
+        )
+
+        msg = SafetyDebug()
+        msg.stamp = now.to_msg()
+        msg.cmd_linear = self.debug_value(command_linear)
+        msg.cmd_angular = self.debug_value(command_angular)
+        msg.target_linear_after_safety = self.debug_value(linear_target)
+        msg.target_angular_after_avoid = self.debug_value(angular_target)
+        msg.current_linear = self.debug_value(self.current_linear)
+        msg.current_angular = self.debug_value(self.current_angular)
+        msg.front_range = self.debug_value(self.front_min_range)
+        msg.rear_range = self.debug_value(self.rear_min_range)
+        msg.front_left_range = self.debug_value(self.front_left_min_range)
+        msg.front_right_range = self.debug_value(self.front_right_min_range)
+        msg.front_clearance = self.debug_value(front_clearance)
+        msg.rear_clearance = self.debug_value(rear_clearance)
+        msg.front_left_clearance = self.debug_value(front_left_clearance)
+        msg.front_right_clearance = self.debug_value(front_right_clearance)
+        msg.obstacle_blocked = self.obstacle_blocked
+        self.debug_publisher.publish(msg)
+
     def publish_transform(self, now):
         transform = TransformStamped()
         transform.header.stamp = now.to_msg()
@@ -380,6 +420,12 @@ class CmdVelDriveNode(Node):
         if not math.isfinite(obstacle_range):
             return float("inf")
         return max(0.0, obstacle_range - body_offset)
+
+    @staticmethod
+    def debug_value(value):
+        if not math.isfinite(value):
+            return float("nan")
+        return float(round(value, 3))
 
     @staticmethod
     def step_towards(current_value, target_value, max_step):

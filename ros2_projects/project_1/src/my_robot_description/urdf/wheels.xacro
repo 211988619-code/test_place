@@ -40,8 +40,8 @@
     </joint>
   </xacro:macro>
 
-  <xacro:macro name="caster_wheel" params="x y z radius mass">
-    <link name="caster_link">
+  <xacro:macro name="caster_wheel" params="prefix x y z radius mass">
+    <link name="${prefix}_caster_link">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
@@ -72,9 +72,9 @@
       </inertial>
     </link>
 
-    <joint name="caster_joint" type="fixed">
+    <joint name="${prefix}_caster_joint" type="fixed">
       <parent link="base_link"/>
-      <child link="caster_link"/>
+      <child link="${prefix}_caster_link"/>
       <origin xyz="${x} ${y} ${z}" rpy="0 0 0"/>
     </joint>
   </xacro:macro>

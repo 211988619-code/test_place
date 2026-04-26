@@ -1,0 +1,16 @@
+builtin_interfaces/Time stamp
+float32 cmd_linear
+float32 cmd_angular
+float32 target_linear_after_safety
+float32 target_angular_after_avoid
+float32 current_linear
+float32 current_angular
+float32 front_range
+float32 rear_range
+float32 front_left_range
+float32 front_right_range
+float32 front_clearance
+float32 rear_clearance
+float32 front_left_clearance
+float32 front_right_clearance
+bool obstacle_blocked

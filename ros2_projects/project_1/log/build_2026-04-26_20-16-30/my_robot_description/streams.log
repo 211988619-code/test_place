@@ -1,0 +1,329 @@
+[0.017s] Invoking command in '/home/linux/test_place/ros2_projects/project_1/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/linux/test_place/ros2_projects/project_1/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_projects/project_1/install/my_robot_description
+[0.287s] -- The C compiler identification is GNU 13.3.0
+[1.526s] -- The CXX compiler identification is GNU 13.3.0
+[2.707s] -- Detecting C compiler ABI info
+[3.178s] -- Detecting C compiler ABI info - done
+[3.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.193s] -- Detecting C compile features
+[3.193s] -- Detecting C compile features - done
+[3.363s] -- Detecting CXX compiler ABI info
+[3.819s] -- Detecting CXX compiler ABI info - done
+[3.833s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.833s] -- Detecting CXX compile features
+[3.834s] -- Detecting CXX compile features - done
+[3.840s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.060s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.251s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.677s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.684s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[5.559s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.001s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.196s] -- Found PythonExtra: /usr/bin/python3  
+[7.860s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.953s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.970s] -- Configuring done (7.9s)
+[8.053s] -- Generating done (0.1s)
+[8.077s] -- Build files have been written to: /home/linux/test_place/ros2_projects/project_1/build/my_robot_description
+[8.088s] Invoked command in '/home/linux/test_place/ros2_projects/project_1/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/linux/test_place/ros2_projects/project_1/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/linux/test_place/ros2_projects/project_1/install/my_robot_description
+[8.091s] Invoking command in '/home/linux/test_place/ros2_projects/project_1/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_projects/project_1/build/my_robot_description -- -j32 -l32
+[8.167s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.167s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[8.179s] [  4%] Built target ament_cmake_python_copy_my_robot_description
+[8.486s] [  4%] Built target my_robot_description__rosidl_generator_type_description
+[8.489s] running egg_info
+[8.491s] creating my_robot_description.egg-info
+[8.504s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.516s] writing my_robot_description.egg-info/PKG-INFO
+[8.516s] writing dependency_links to my_robot_description.egg-info/dependency_links.txt
+[8.517s] writing top-level names to my_robot_description.egg-info/top_level.txt
+[8.518s] writing manifest file 'my_robot_description.egg-info/SOURCES.txt'
+[8.522s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.533s] [  8%] Built target my_robot_description__rs
+[8.586s] reading manifest file 'my_robot_description.egg-info/SOURCES.txt'
+[8.587s] writing manifest file 'my_robot_description.egg-info/SOURCES.txt'
+[8.629s] [  8%] Built target ament_cmake_python_build_my_robot_description_egg
+[8.918s] [  8%] Built target my_robot_description__cpp
+[8.963s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/msg/detail/safety_debug__type_support.c.o[0m
+[8.964s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/msg/detail/safety_debug__description.c.o[0m
+[8.964s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/msg/detail/safety_debug__functions.c.o[0m
+[8.964s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/msg/detail/wall_follow_debug__description.c.o[0m
+[8.965s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/msg/detail/wall_follow_debug__functions.c.o[0m
+[8.965s] [ 22%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_c.dir/rosidl_generator_c/my_robot_description/msg/detail/wall_follow_debug__type_support.c.o[0m
+[9.033s] [ 24%] [32m[1mLinking C shared library libmy_robot_description__rosidl_generator_c.so[0m
+[9.245s] [ 24%] Built target my_robot_description__rosidl_generator_c
+[9.260s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.260s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.260s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.260s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.261s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.262s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.627s] [ 40%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_description/msg/wall_follow_debug__type_support.cpp.o[0m
+[9.627s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_description/msg/safety_debug__type_support.cpp.o[0m
+[9.627s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_description/msg/wall_follow_debug__type_support.cpp.o[0m
+[9.627s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_description/msg/safety_debug__type_support.cpp.o[0m
+[9.647s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_description/msg/detail/safety_debug__type_support.cpp.o[0m
+[9.648s] [ 51%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_description/msg/detail/wall_follow_debug__type_support.cpp.o[0m
+[9.659s] [ 53%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_description/msg/detail/wall_follow_debug__type_support.c.o[0m
+[9.659s] [ 55%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_description/msg/detail/safety_debug__type_support.c.o[0m
+[9.686s] [ 57%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_c.so[0m
+[9.699s] [ 62%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_description/msg/detail/dds_fastrtps/safety_debug__type_support.cpp.o[0m
+[9.699s] [ 62%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_description/msg/detail/dds_fastrtps/wall_follow_debug__type_support.cpp.o[0m
+[9.710s] [ 64%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_description/msg/detail/safety_debug__type_support_c.cpp.o[0m
+[9.711s] [ 66%] [32mBuilding CXX object CMakeFiles/my_robot_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_description/msg/detail/wall_follow_debug__type_support_c.cpp.o[0m
+[9.715s] [ 68%] [32m[1mLinking C shared library libmy_robot_description__rosidl_typesupport_introspection_c.so[0m
+[9.931s] [ 68%] Built target my_robot_description__rosidl_typesupport_introspection_c
+[9.932s] [ 68%] Built target my_robot_description__rosidl_typesupport_c
+[10.100s] [ 71%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_cpp.so[0m
+[10.124s] [ 73%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_introspection_cpp.so[0m
+[10.322s] [ 73%] Built target my_robot_description__rosidl_typesupport_cpp
+[10.375s] [ 73%] Built target my_robot_description__rosidl_typesupport_introspection_cpp
+[10.375s] [ 75%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.384s] [ 77%] [32m[1mLinking CXX shared library libmy_robot_description__rosidl_typesupport_fastrtps_c.so[0m
+[10.630s] [ 77%] Built target my_robot_description__rosidl_typesupport_fastrtps_cpp
+[10.633s] [ 77%] Built target my_robot_description__rosidl_typesupport_fastrtps_c
+[10.664s] [ 77%] Built target my_robot_description
+[10.693s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.244s] [ 80%] Built target my_robot_description__py
+[11.275s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_py.dir/rosidl_generator_py/my_robot_description/msg/_safety_debug_s.c.o[0m
+[11.275s] [ 84%] [32mBuilding C object CMakeFiles/my_robot_description__rosidl_generator_py.dir/rosidl_generator_py/my_robot_description/msg/_wall_follow_debug_s.c.o[0m
+[11.461s] [ 86%] [32m[1mLinking C shared library libmy_robot_description__rosidl_generator_py.so[0m
+[11.692s] [ 86%] Built target my_robot_description__rosidl_generator_py
+[11.722s] [ 88%] [32mBuilding C object CMakeFiles/my_robot_description_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.723s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_description_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.723s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_description_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_c.c.o[0m
+[11.859s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_c.so[0m
+[11.867s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.881s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.so[0m
+[12.063s] [100%] Built target my_robot_description_s__rosidl_typesupport_c
+[12.063s] [100%] Built target my_robot_description_s__rosidl_typesupport_fastrtps_c
+[12.108s] [100%] Built target my_robot_description_s__rosidl_typesupport_introspection_c
+[12.125s] Invoked command in '/home/linux/test_place/ros2_projects/project_1/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/linux/test_place/ros2_projects/project_1/build/my_robot_description -- -j32 -l32
+[12.140s] Invoking command in '/home/linux/test_place/ros2_projects/project_1/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_projects/project_1/build/my_robot_description
+[12.151s] -- Install configuration: ""
+[12.153s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/ament_index/resource_index/rosidl_interfaces/my_robot_description
+[12.154s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/msg/SafetyDebug.json
+[12.154s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/msg/WallFollowDebug.json
+[12.154s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description
+[12.156s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg
+[12.157s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_generator_c__visibility_control.h
+[12.157s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/safety_debug.h
+[12.158s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/wall_follow_debug.h
+[12.158s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail
+[12.158s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__description.c
+[12.158s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__type_support.h
+[12.159s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__struct.h
+[12.159s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__functions.c
+[12.160s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__functions.h
+[12.160s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__functions.h
+[12.161s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__type_support.h
+[12.161s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__type_support.c
+[12.162s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__description.c
+[12.162s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__type_support.c
+[12.162s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__struct.h
+[12.162s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__functions.c
+[12.162s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/library_path.sh
+[12.162s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/library_path.dsv
+[12.163s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_generator_c.so
+[12.164s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_generator_c.so" to ""
+[12.164s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description
+[12.165s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg
+[12.165s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.166s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail
+[12.166s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__rosidl_typesupport_fastrtps_c.h
+[12.166s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__rosidl_typesupport_fastrtps_c.h
+[12.166s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_fastrtps_c.so
+[12.167s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_fastrtps_c.so" to ""
+[12.167s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description
+[12.168s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg
+[12.169s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.169s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail
+[12.169s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__rosidl_typesupport_introspection_c.h
+[12.170s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__rosidl_typesupport_introspection_c.h
+[12.170s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__type_support.c
+[12.170s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__type_support.c
+[12.170s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_introspection_c.so
+[12.170s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_introspection_c.so" to ""
+[12.170s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_c.so
+[12.171s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_c.so" to ""
+[12.171s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description
+[12.172s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg
+[12.172s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/wall_follow_debug.hpp
+[12.172s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/safety_debug.hpp
+[12.173s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.173s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail
+[12.174s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__traits.hpp
+[12.174s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__builder.hpp
+[12.175s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__struct.hpp
+[12.175s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__builder.hpp
+[12.175s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__type_support.hpp
+[12.176s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__struct.hpp
+[12.176s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__type_support.hpp
+[12.177s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__traits.hpp
+[12.177s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description
+[12.177s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg
+[12.177s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.177s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail
+[12.177s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__rosidl_typesupport_fastrtps_cpp.hpp
+[12.178s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__rosidl_typesupport_fastrtps_cpp.hpp
+[12.178s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/dds_fastrtps
+[12.179s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_fastrtps_cpp.so
+[12.180s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.180s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description
+[12.180s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg
+[12.181s] -- Up-to-date: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail
+[12.181s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__rosidl_typesupport_introspection_cpp.hpp
+[12.182s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/wall_follow_debug__type_support.cpp
+[12.183s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__type_support.cpp
+[12.183s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/include/my_robot_description/my_robot_description/msg/detail/safety_debug__rosidl_typesupport_introspection_cpp.hpp
+[12.184s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_introspection_cpp.so
+[12.184s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_introspection_cpp.so" to ""
+[12.184s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_cpp.so
+[12.185s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_typesupport_cpp.so" to ""
+[12.185s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/pythonpath.sh
+[12.185s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/pythonpath.dsv
+[12.185s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.1-py3.12.egg-info
+[12.185s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.1-py3.12.egg-info/top_level.txt
+[12.186s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.1-py3.12.egg-info/SOURCES.txt
+[12.186s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.1-py3.12.egg-info/dependency_links.txt
+[12.186s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.1-py3.12.egg-info/PKG-INFO
+[12.186s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[12.187s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_c.c
+[12.187s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.187s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.so
+[12.188s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg
+[12.189s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/__init__.py
+[12.189s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/_wall_follow_debug_s.c
+[12.189s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/_wall_follow_debug.py
+[12.190s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/_safety_debug.py
+[12.190s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/_safety_debug_s.c
+[12.190s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py
+[12.191s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_c.so
+[12.191s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.so
+[12.191s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/_my_robot_description_s.ep.rosidl_typesupport_introspection_c.c
+[12.259s] Listing '/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description'...
+[12.260s] Compiling '/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py'...
+[12.260s] Listing '/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg'...
+[12.260s] Compiling '/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/__init__.py'...
+[12.260s] Compiling '/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/_safety_debug.py'...
+[12.260s] Compiling '/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/msg/_wall_follow_debug.py'...
+[12.267s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.so
+[12.268s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.269s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.so
+[12.269s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_introspection_c.so" to ""
+[12.270s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_c.so
+[12.271s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/my_robot_description_s__rosidl_typesupport_c.so" to ""
+[12.271s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_generator_py.so
+[12.271s] -- Set non-toolchain portion of runtime path of "/home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/libmy_robot_description__rosidl_generator_py.so" to ""
+[12.272s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/ament_index/resource_index/rust_packages/my_robot_description
+[12.272s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust
+[12.273s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/Cargo.toml
+[12.273s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/build.rs
+[12.274s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/src
+[12.274s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/src/msg.rs
+[12.274s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/src/msg
+[12.275s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/src/msg/rmw.rs
+[12.275s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rust/src/lib.rs
+[12.276s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/msg/SafetyDebug.idl
+[12.276s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/msg/WallFollowDebug.idl
+[12.276s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/msg/SafetyDebug.msg
+[12.277s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/msg/WallFollowDebug.msg
+[12.277s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch
+[12.278s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/wall_follow.launch.py
+[12.278s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/gazebo_world.launch.py
+[12.279s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/gazebo_wall_follow.launch.py
+[12.279s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/move_robot.launch.py
+[12.280s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/gazebo_with_rviz.launch.py
+[12.280s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/gazebo_slam.launch.py
+[12.280s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/keyboard_control.launch.py
+[12.280s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__
+[12.281s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_drive.launch.cpython-39.pyc
+[12.281s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/wall_follow.launch.cpython-39.pyc
+[12.282s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_wall_follow.launch.cpython-39.pyc
+[12.282s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/spawn_robot_in_room.launch.cpython-39.pyc
+[12.282s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_localization.launch.cpython-39.pyc
+[12.283s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_with_rviz.launch.cpython-39.pyc
+[12.283s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_nav.launch.cpython-39.pyc
+[12.283s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_slam.launch.cpython-39.pyc
+[12.284s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/__pycache__/gazebo_world.launch.cpython-39.pyc
+[12.284s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/gazebo_localization.launch.py
+[12.284s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/gazebo_drive.launch.py
+[12.285s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/animate_wheels.launch.py
+[12.285s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/spawn_robot_in_room.launch.py
+[12.286s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[12.286s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rviz
+[12.286s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rviz/slam.rviz
+[12.287s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rviz/model.rviz
+[12.287s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rviz/localization.rviz
+[12.288s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/rviz/motion.rviz
+[12.288s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/urdf
+[12.288s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[12.288s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/urdf/chassis.xacro
+[12.289s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/urdf/wheels.xacro
+[12.289s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/urdf/gazebo.xacro
+[12.289s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/urdf/sensors.xacro
+[12.290s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/worlds
+[12.290s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/worlds/learning_room.sdf
+[12.291s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/config
+[12.291s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/config/slam_toolbox_gazebo.yaml
+[12.292s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/config/wall_follow.yaml
+[12.292s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/config/gazebo_bridge.yaml
+[12.292s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/config/slam_localization_gazebo.yaml
+[12.292s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/config/wall_follow_gazebo.yaml
+[12.293s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/maps
+[12.293s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/maps/README.md
+[12.294s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/wheel_demo.py
+[12.294s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/diff_drive_demo.py
+[12.294s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/cmd_vel_drive.py
+[12.295s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/keyboard_teleop.py
+[12.295s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/odom_to_tf.py
+[12.296s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/odom_to_joint_states.py
+[12.296s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/scan_to_slam.py
+[12.297s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/save_slam_artifacts.py
+[12.297s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/auto_initial_pose.py
+[12.298s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/scan_safety_filter.py
+[12.298s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/virtual_lidar.py
+[12.298s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/lib/my_robot_description/wall_follow.py
+[12.299s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[12.300s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[12.300s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[12.300s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[12.301s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/path.sh
+[12.302s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[12.302s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/local_setup.bash
+[12.303s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/local_setup.sh
+[12.303s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[12.303s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[12.304s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/package.dsv
+[12.304s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[12.305s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_cExport.cmake
+[12.305s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_cExport-noconfig.cmake
+[12.306s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cExport.cmake
+[12.307s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.307s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cExport.cmake
+[12.308s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.308s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cExport.cmake
+[12.309s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cExport-noconfig.cmake
+[12.309s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_cppExport.cmake
+[12.310s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.310s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.311s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cppExport.cmake
+[12.311s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.312s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cppExport.cmake
+[12.312s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_description__rosidl_typesupport_cppExport-noconfig.cmake
+[12.312s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_pyExport.cmake
+[12.313s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/export_my_robot_description__rosidl_generator_pyExport-noconfig.cmake
+[12.313s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/rosidl_cmake-extras.cmake
+[12.314s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.314s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.315s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_libraries-extras.cmake
+[12.315s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_targets-extras.cmake
+[12.315s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.316s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.316s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[12.317s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[12.317s] -- Installing: /home/linux/test_place/ros2_projects/project_1/install/my_robot_description/share/my_robot_description/package.xml
+[12.322s] Invoked command in '/home/linux/test_place/ros2_projects/project_1/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/linux/test_place/ros2_projects/project_1/build/my_robot_description

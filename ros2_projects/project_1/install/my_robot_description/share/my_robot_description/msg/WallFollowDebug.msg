@@ -1,0 +1,13 @@
+builtin_interfaces/Time stamp
+string state
+float32 front_range
+float32 side_range
+float32 diagonal_range
+float32 distance_error
+float32 wall_angle_error
+float32 front_speed_scale
+float32 linear_command
+float32 angular_command
+bool front_blocked
+bool wall_lost
+bool in_acquire_mode
